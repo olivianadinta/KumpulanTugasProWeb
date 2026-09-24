@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Fieldset dan Legend */
+fieldset {
+  width: 90%;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 25px;
+
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+legend {
+  padding: 0 12px;
+  margin: 0 auto;
+
+  font-family: "Lora", Georgia, serif;
+  color: #704a67;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+
+/* Form */
+.form {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 20px;
+}
+
+.form label {
+  width: 155px;
+  color: #4b3b4d;
+  font-family: "Lora", serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.form > input,
+.form textarea {
+  width: 280px;
+  padding: 10px;
+  border: 1px solid #d5c3d3;
+  border-radius: 8px;
+  background-color: #fffafd;
+  font-family: "Lora", serif;
+  font-size: 14px;
+}
+
+.form textarea {
+  height: 90px;
+}
+
+
+/* Radio Button */
+.radio-group {
+  display: flex;
+  gap: 15px;
+}
+
+.radio-group label {
+  width: auto;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+
+/* Select */
+.select-group {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 20px;
+}
+
+.select-group label {
+  width: 155px;
+
+  color: #4b3b4d;
+  font-family: "Lora", serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.select-group select {
+  width: 280px;
+  padding: 10px;
+
+  border: 1px solid #d5c3d3;
+  border-radius: 8px;
+  background-color: #fffafd;
+
+  color: #4b3b4d;
+  font-family: "Lora", serif;
+  font-size: 14px;
+}
+
+
+/* Checkbox */
+.checkbox-group {
+  margin-bottom: 25px;
+}
+
+.checkbox-group > label:first-child {
+  display: block;
+  margin-bottom: 12px;
+
+  color: #4b3b4d;
+  font-family: "Lora", serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.checkbox-item {
+  display: block;
+  margin-bottom: 8px;
+
+  color: #4b3b4d;
+  font-family: "Lora", serif;
+  font-size: 14px;
+}
+
+
+/* Button */
+.button-group {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.button-group button {
+  padding: 10px 25px;
+
+  border: none;
+  border-radius: 8px;
+
+  font-family: "Lora", serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.button-group button[type="submit"] {
+  background-color: #8e607f;
+  color: white;
+}
+
+.button-group button[type="reset"] {
+  background-color: #eee5ed;
+  color: #704a67;
+}
